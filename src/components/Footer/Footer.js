@@ -11,7 +11,7 @@ function Footer() {
         <div className='footer-container'>
             <section className="footer-subscription">
                 <p className="footer subscription">
-                    Join the Adventure, use alert to receive our best vacation deals
+                    Subscribe our news letter for recieve all the offers!
                 </p>
                 <p className="footer-subscription-text">
                     You can unsubscribe at any time
@@ -27,7 +27,7 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>About Us</h2>
-                        <Link to="/sign-up">How it works</Link>
+                        <Link to="/sign-up">Knew Apple</Link>
                         <Link to="/" >Testimonials</Link>
                         <Link to="/" >Careers</Link>
                         <Link to="/" >Investors</Link>
@@ -37,15 +37,14 @@ function Footer() {
                         <h2>Contact Us</h2>
                         <Link to="/">Contact</Link>
                         <Link to="/" >Support</Link>
-                        <Link to="/" >Destinations</Link>
-                        <Link to="/" >Sponsorships</Link>
+                        <Link to="/" >Work with us</Link>
                     </div>
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Videos</h2>
                         <Link to="/">Submit Video</Link>
-                        <Link to="/" >Ambassadors</Link>
+                        <Link to="/" >Our clients videos</Link>
                         <Link to="/" >Agency</Link>
                         <Link to="/" >Influencers</Link>
                     </div>
@@ -65,9 +64,9 @@ function Footer() {
                              Apple <FontAwesomeIcon icon={['fab', 'apple']} />
                         </Link>
                     </div>
-                    <p className="dev">Developer - Dario Rodrigo Torres</p>
+                    <p className="dev">Made with Love for Dario Rodrigo Torres</p>
                     <small className="website-rights">
-                        Apple 2020
+                        Apple 2021
                     </small>
                     <div className="social-icons">
                         <Link className="social-icon-link facebook" to="/" target="_blank" aria-label="Facebook">
